@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="ae98c9e5-8e14-4c92-b45a-c4fd24a49123">
+    <Name>NDepend 2023.2.3</Name>
+    <Author>ZEN PROGRAM HLD</Author>
+    <Version>2023.2.3.9706</Version>
+    <Description xml:space="preserve">NDepend 2023.2.3 extension for Microsoft Visual Studio. For more information about NDepend, visit https://www.ndepend.com. Copyright © 2004–2023 ZEN PROGRAM HLD</Description>
+    <Locale>1033</Locale>
+    <Icon>Resources\icon.png</Icon>
+    <PreviewImage>Resources\preview.png</PreviewImage>
+    <MoreInfoUrl>https://www.ndepend.com/features</MoreInfoUrl>
+    <GettingStartedGuide>https://www.ndepend.com/docs/getting-started-with-ndepend</GettingStartedGuide>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+      </VisualStudio>
+      <VisualStudio Version="11.0">
+        <Edition>Pro</Edition>
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+      </VisualStudio>
+      <VisualStudio Version="12.0">
+        <Edition>Pro</Edition>
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" />
+    <License>PackageLicense.rtf</License>
+  </Identifier>
+  <Content>
+    <VsPackage>NDepend.VisualStudioExtension1.pkgdef</VsPackage>
+    <MefComponent>NDepend.VisualStudioExtension1.dll</MefComponent>
+  </Content>
+</Vsix>
